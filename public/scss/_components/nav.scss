@@ -1,0 +1,29 @@
+.main-nav {
+    margin-bottom: 2rem;
+}
+
+.main-nav__container {
+    display: block;
+    padding-left: 0;
+}
+
+.main-nav__item {
+    display: inline-block;
+    list-style: none;
+    font-weight: 700;
+    font-size: 3.7rem;
+    margin-right: 2vw;
+    line-height: 1.1;
+
+    @media (min-width: 500px) {
+        font-size: 4.4rem;
+    }
+}
+
+a.main-nav__link_active {
+    color: darken($blue, 30%);
+}
+
+a.main-nav__link_active:before {
+    content: '\2666';
+}

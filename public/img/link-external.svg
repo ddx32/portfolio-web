@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 768 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Artboard1" transform="matrix(1,0,0,1,0,-128)">
+        <rect x="0" y="128" width="768" height="768" style="fill:none;"/>
+        <path d="M640,768L128,768L128,257.906L256,256L256,128L0,128L0,896L768,896L768,576L640,576L640,768ZM384,128L512,256L320,448L448,576L640,384L768,512L768,128L384,128Z" style="fill:rgb(39,58,239);fill-rule:nonzero;"/>
+    </g>
+</svg>

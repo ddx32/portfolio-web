@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel="stylesheet" href="scss/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <header class="site-header">
+            <a href="/" class="site-header__title">
+                <h1><%= name %></h1>
+            </a>
+        </header>
+
+        <%- partial("_components/nav") %>
+
+        <div class="content <%= contentTag %>">
+            <%- yield %>
+        </div>
+
+        <footer>Footer</footer>
+        <script type="text/javascript" src="js/min/site.min.js">
+
+        </script>
+    </body>
+</html>

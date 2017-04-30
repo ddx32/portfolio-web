@@ -1,0 +1,29 @@
+body {
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    background: #f5f5f5;
+}
+
+a, a:visited {
+    color: $blue;
+}
+
+a:active {
+    color: red;
+}
+
+p, li {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    padding: 0 1rem;
+    max-width: 64rem;
+    margin: auto;
+}

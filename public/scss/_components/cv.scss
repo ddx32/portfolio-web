@@ -1,0 +1,97 @@
+.cv {
+    .container {
+        position: relative;
+    }
+
+    h1, h2 {
+        @media (min-width: 885px) {
+            display: inline-block;
+        }
+    }
+
+    h1 {
+        margin: 0 1.5rem .5rem 0;
+    }
+
+    h2 {
+        color: #666;
+        margin: .8rem 0;
+    }
+
+    h3 {
+        display: inline-block;
+        background-color: $yellow;
+        margin: .5rem 0 0 0;
+        font-size: 1.5rem;
+        padding: .2rem;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+
+    h5 {
+        font-size: 1.3rem;
+        margin-bottom: -1rem;
+
+        em {
+            color: #444;
+            font-weight: normal;
+        }
+    }
+
+    blockquote {
+        font-size: 1.2rem;
+        margin: .7rem 0;
+
+        @media (min-width: 620px) {
+            position: absolute;
+            top: 0; right: 1rem;
+            text-align: right;
+        }
+
+        @media (min-width: 885px) {
+            margin-top: 0;
+        }
+    }
+
+    blockquote p {
+        margin: 0;
+    }
+
+    hr {
+        clear: both;
+
+        @media (min-width: 885px) {
+            margin-top: 1rem;
+        }
+    }
+
+    img {
+        display: block;
+        border-radius: 300px;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin: auto;
+
+        @media (min-width: 500px) {
+            float: right;
+            margin: 0 0 1rem 1rem;
+            max-width: 180px;
+        }
+    }
+
+    ol {
+        list-style: none;
+        margin: .5rem 0; padding: 0;
+    }
+
+    ol li {
+        display: inline-block;
+        padding: .5rem;
+        margin: .2rem 0;
+        background: #fff;
+    }
+}
