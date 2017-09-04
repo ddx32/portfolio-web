@@ -9,33 +9,6 @@ var uglify   	= require('gulp-uglify');
 var maps        = require('gulp-sourcemaps');
 var concat		= require('gulp-concat');
 
-/*
-    Hack up relative image paths for PDF output
-*/
-
-var imgBasePath = __dirname + '/public/';
-var preProcessHtml = function() {
-    return through(function(data) {
-        var $ = cheerio.load(data);
-
-        $('img[src]').each(function(i, elem) {
-            var path = $(this).attr('src');
-            path = imgBasePath + path;
-            $(this).attr('src', path);
-        });
-
-        this.queue($.html());
-    });
-};
-
-gulp.task('compile-pdf', function() {
-    var cv = "public/_cv.md";
-    return gulp.src(cv)
-        .pipe(mdpdf({
-            preProcessHtml: preProcessHtml
-        }))
-        .pipe(gulp.dest('public'));
-});
 
 var scripts = [
 	'public/js/scrolling.js'
@@ -50,6 +23,32 @@ gulp.task('scripts', function(){
 	.pipe(gulp.dest('./public/js/min/'));
 });
 
+
+/* Hack up relative image paths for PDF output */
+var imgBasePath = __dirname + '/public/';
+var preProcessHtml = function() {
+    return through(function(data) {
+        var $ = cheerio.load(data);
+
+        $('img[src]').each(function(i, elem) {
+            var path = $(this).attr('src');
+            path = imgBasePath + path;
+            $(this).attr('src', path);
+        });
+        
+        this.queue($.html());
+    });
+};
+
+gulp.task('compile-pdf', function() {
+    var cv = "public/_cv.md";
+    return gulp.src(cv)
+        .pipe(mdpdf({
+            preProcessHtml: preProcessHtml,
+            cssPath: 'public/css/cv-print.css'
+        }))
+        .pipe(gulp.dest('../static'));
+});
 
 gulp.task('serve', function () {
   harp.server(__dirname, {
@@ -75,8 +74,8 @@ gulp.task('serve', function () {
         reload();
     });
 
-    var cv = "public/_cv.md";
-    gulp.watch([cv], ['compile-pdf']);
+    /* PDF output generator for CV */
+    gulp.watch(["public/css/cv-print.css", "public/_cv.md"], ['compile-pdf']);
   })
 });
 

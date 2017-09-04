@@ -1,5 +1,5 @@
 # Filip Ruzicka - a filthy snake
 
-This is my personal website.
+This is my personal website/portfolio.
 
-Take it or leave it.
+It's not much I know, but bear with me.

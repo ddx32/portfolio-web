@@ -7,10 +7,14 @@
 }
 
 .portfolio__item {
-    margin: 5rem 0;
+    margin: 3rem 0;
     transform: skewY(-2deg) translateY(90px);
     opacity: 0;
     transition: all .8s ease;
+
+    @media (min-width: 1000px) {
+        margin: 5rem 0 8rem 0;
+    }
 }
 
 .portfolio__item.skewed {
@@ -20,6 +24,48 @@
 
 .portfolio__previews {
     margin-bottom: 2rem;
+}
+
+.portfolio__browser-window {
+    max-width: 256px;
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.portfolio__phone {
+    max-width: 180px;
+    display: block;
+    position: relative;
+    top: 104px;
+    z-index: 20;
+}
+
+.browser-video-container {
+    x: 6px;
+    y: 25px;
+}
+
+$ratio-width: 302px;
+$ratio-height: 225px;
+
+.browser-video {
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translate(-50%, 11%);
+    z-index: 20;
+    $scale01: 0.83;
+    width: $ratio-width * $scale01;
+    height: $ratio-height * $scale01;
+}
+
+$p-ratio-width: 246px;
+$p-ratio-height: 400px;
+
+.phone-video {
+    $scale02: .715;
+    width: $p-ratio-width * $scale02;
+    height: $p-ratio-height * $scale02;
 }
 
 .portfolio__itemdesc {

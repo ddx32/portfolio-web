@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="250px" height="470px" viewBox="0 0 250 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>phone</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="phone" stroke="#273AEF" stroke-width="2">
-            <rect id="device" x="1.46075939" y="1" width="247.23865" height="468" rx="21"></rect>
-            <path d="M1.63493433,33.2916667 L249.042032,33.2916667" id="top-line" stroke-linecap="square"></path>
-            <path d="M103.168885,16.8789683 L147.141811,16.8789683" id="speaker" stroke-linecap="square"></path>
-            <path d="M1.55925727,434.470238 L248.966355,434.470238" id="bottom-line" stroke-linecap="square"></path>
-            <rect id="home" x="114.645401" y="444.142857" width="21.5288751" height="15.625" rx="7.8125"></rect>
-        </g>
-    </g>
-</svg>
+<svg width="250" height="470" viewBox="0 0 250 470" xmlns="http://www.w3.org/2000/svg"><title>phone</title><g stroke="#273AEF" stroke-width="2" fill="none" fill-rule="evenodd"><rect x="1.5" y="1" width="247.2" height="468" rx="21"/><path d="M1.6 33.3H249M103.2 17h44M1.6 434.5H249" stroke-linecap="square"/><rect x="114.6" y="444.1" width="21.5" height="15.6" rx="7.8"/></g></svg>
