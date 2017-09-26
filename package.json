@@ -19,10 +19,12 @@
     "gulp": "^3.8.5",
     "gulp-concat": "^2.6.1",
     "gulp-markdown-pdf": "^4.0.0",
-    "gulp-sourcemaps": "^2.4.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^2.1.2",
-    "harp": "^0.23.0",
+    "harp": "^0.24.0",
     "normalize.css": "^5.0.0",
     "through": "^2.3.8"
-  }
+  },
+  "dependencies": {}
 }

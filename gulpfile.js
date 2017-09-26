@@ -1,4 +1,5 @@
 var gulp        = require('gulp');
+var rename      = require('gulp-rename');
 var browserSync = require('browser-sync');
 var reload      = browserSync.reload;
 var harp        = require('harp');
@@ -35,7 +36,7 @@ var preProcessHtml = function() {
             path = imgBasePath + path;
             $(this).attr('src', path);
         });
-        
+
         this.queue($.html());
     });
 };
@@ -47,7 +48,15 @@ gulp.task('compile-pdf', function() {
             preProcessHtml: preProcessHtml,
             cssPath: 'public/css/cv-print.css'
         }))
-        .pipe(gulp.dest('../static'));
+        .pipe(rename('cv.pdf'))
+        .pipe(gulp.dest('../static/downloads'));
+});
+
+gulp.task('copy-cv', function() {
+	var cv = "public/_cv.md";
+	return gulp.src(cv)
+		.pipe(rename('cv.md'))
+		.pipe(gulp.dest('../static/downloads'));
 });
 
 gulp.task('serve', function () {
@@ -75,7 +84,7 @@ gulp.task('serve', function () {
     });
 
     /* PDF output generator for CV */
-    gulp.watch(["public/css/cv-print.css", "public/_cv.md"], ['compile-pdf']);
+    gulp.watch(["public/css/cv-print.css", "public/_cv.md"], ['compile-pdf', 'copy-cv']);
   })
 });
 
