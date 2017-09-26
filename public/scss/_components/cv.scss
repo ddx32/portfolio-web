@@ -1,6 +1,18 @@
+.cv-download {
+    background-color: #ebebeb;
+    display: inline-block;
+    border-radius: .4rem;
+    padding: .3rem .7rem;
+    margin-top: 0;
+}
+
 .cv {
-    .container {
+    .cv-main {
         position: relative;
+    }
+
+    p {
+        font-size: 1.3rem;
     }
 
     h1, h2 {
@@ -27,17 +39,20 @@
     }
 
     h4 {
-        font-size: 1.3rem;
-        margin-bottom: 0;
+        font-size: 1.1rem;
+        margin-bottom: .2rem;
+        color: #777;
     }
 
     h5 {
-        font-size: 1.3rem;
-        margin-bottom: -1rem;
+        font-size: 1.4rem;
+        margin-bottom: -0.8rem;
+        margin-top: 0;
 
         em {
             color: #444;
             font-weight: normal;
+            font-size: 1.2rem;
         }
     }
 
@@ -45,7 +60,7 @@
         font-size: 1.2rem;
         margin: .7rem 0;
 
-        @media (min-width: 620px) {
+        @media (min-width: 660px) {
             position: absolute;
             top: 0; right: 1rem;
             text-align: right;

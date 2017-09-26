@@ -14,6 +14,17 @@ h2 {
     color: #555;
 }
 
+h4 {
+    margin-bottom: 0;
+    font-size: 7pt;
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: -8pt;
+    font-size: 9pt;
+}
+
 blockquote {
     display: block;
     width: 30%;
@@ -33,4 +44,17 @@ img {
 
 a[href]:after {
     content: "";
+}
+
+ol, ol li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol li {
+    display: inline-block;
+    padding: .5rem;
+    margin: .2rem 0;
+    background: #eee;
 }

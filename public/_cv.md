@@ -1,5 +1,5 @@
 # Filip Růžička
-## Front-end coder/designer
+## Front-end designer/developer
 
 > <f@filipruzicka.com>  
 > +420 724 124 888
@@ -10,39 +10,36 @@
 
 ### Summary
 
-I'm a full stack web developer and designer focusing on frontend technologies. Working as a freelancer for individuals and small businesses I design and develop websites from the bottom up.
-
-I've delivered work that ranges from server setup and database design to visual design and DTP, all while trying my best to understand my clients' business and budget needs.
+I'm a web developer and designer focusing on frontend technologies. Working as a freelancer for individuals and small businesses I typically design, develop and deploy complete custom websites from the bottom up.
 
 ------
 
 ### Experience & Education
 
+#### 2015-current
 ##### Self-employed: *Freelance web developer*  
-__2015-current__ (Full-time);
-__~2008-2015__ (Part-time)  
-Delivering delibirds and bibliotheks. Also bubanies.
 
+I've delivered work that ranges from research, wireframing and visual design all the way through the stack to server setup and database design, while trying my best to understand my clients' business and budget needs.
+
+#### 2012-2015
 ##### Prague College: *BA (Hons) Fine Art Experimental Media*
-__2012-2015__  
-This was my college thing.
+My college education allowed me to experiment with a wide range of technologies to create art compositions and installations using mixed media both in virtual and physical space.
 
-##### SSŠVT (Soukromá střední škola výpočetní techniky)
-: *Secondary education*
-  __2008-2012__
-  what to say, meh
+#### 2008-2012
+##### SSŠVT: *Secondary school (Soukromá střední škola výpočetní techniky)*
+Learned the basics of general IT, networks and programming.
 
 ------
 
 ### Skills
 
 * **Front-end code**  
-	I deliver work that is **responsive**, lightweight and pushing the limits of what's implemented in browsers while staying cross-browser friendly.  
+	I code **mobile first**, lightweight sites that push the limits of what's implemented in targeted browsers.
 	I'm a daily user of jQuery & trying to favor vanilla JS wherever possible. **SASS, LESS, NPM and Gulp** help me with code organization, package management and optimized delivery.
 
 * **Design**  
-	My experience covers the complete design process from **sketches** and **wireframes** to iteration of high fidelity prototypes based on client feedback through **InVision**.  
-	I switched to **Sketch** + Affinity Designer after >10 years of Photoshop.
+	My experience covers the complete design process from **sketches** and **wireframes** to iteration of high fidelity prototypes based on client feedback.  
+	I use **Sketch** + Affinity Designer for design & illustrations. I have 10+ years of Photoshop experience + proficiency in almost all Adobe CC products.
 
 * **Back-end**  
 	I've deployed back-end code that adheres to the principles of MVC, OOP and DRY.  
@@ -52,7 +49,7 @@ This was my college thing.
 
 ### Tools & workflow
 
-#### I'm comfortable with
+#### I'm comfortable in
 
 1. HTML
 1. CSS
