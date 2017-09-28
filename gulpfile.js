@@ -75,7 +75,7 @@ gulp.task('serve', function () {
         reload("main.css", {stream: true});
     });
 
-    gulp.watch(["public/*.html", "public/*.ejs", "public/*.js", "public/*.json", "public/*.md"], function () {
+    gulp.watch(["public/*.html", "public/*.ejs", "public/*.js", "public/*.json", "public/*.md", "public/_components/*.ejs"], function () {
         reload();
     });
 
