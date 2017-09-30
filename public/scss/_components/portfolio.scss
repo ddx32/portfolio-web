@@ -13,7 +13,7 @@
     transition: all .8s ease;
 
     @media (min-width: 1000px) {
-        margin: 5rem 0 8rem 0;
+        margin: 0 0 10rem 0;
     }
 }
 
@@ -27,10 +27,13 @@
 }
 
 .portfolio__browser-window {
-    max-width: 256px;
-    display: block;
+    display: none;
     position: relative;
     z-index: 10;
+
+    @media (min-width: 950px) {
+        display: inline-block;
+    }
 }
 
 .portfolio__phone {
@@ -50,13 +53,7 @@ $ratio-width: 302px;
 $ratio-height: 225px;
 
 .browser-video {
-    position: absolute;
-    top: 0; left: 50%;
-    transform: translate(-50%, 11%);
-    z-index: 20;
-    $scale01: 0.83;
-    width: $ratio-width * $scale01;
-    height: $ratio-height * $scale01;
+    
 }
 
 $p-ratio-width: 246px;

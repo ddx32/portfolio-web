@@ -1,8 +1,7 @@
 function isElementInViewport (el) {
 
     var rect = el.getBoundingClientRect();
-
-    return ( rect.top <= (window.innerHeight || document.documentElement.clientHeight) );
+    return ( rect.top <= (window.innerHeight || document.documentElement.clientHeight) - document.documentElement.clientHeight * 0.5 );
 }
 
 var el = document.querySelectorAll('.portfolio__item');
