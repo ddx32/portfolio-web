@@ -17,7 +17,6 @@
     font-weight: 700;
     font-style: italic;
     display: block;
-    //animation: chameleon 50s linear infinite;
 
     @media (min-width: 860px) {
         position: absolute;
@@ -42,31 +41,4 @@
 
 a.site-header__title, a.site-header__title h1 {
     color: #fff;
-}
-
-
-@keyframes chameleon {
-    0% {
-        color: $blue;
-    }
-
-    18% {
-        color: $blue;
-    }
-
-    25% {
-        color: #136EE2;
-    }
-
-    55% {
-        color: #5F958B;
-    }
-
-    80% {
-        color: #8B728B;
-    }
-
-    100% {
-        color: $blue;
-    }
 }
