@@ -34,16 +34,16 @@ Learned the basics of general IT, networks and programming.
 ### Skills
 
 * **Front-end code**  
-	I code **mobile first**, lightweight sites that push the limits of what's implemented in targeted browsers.
-	I'm a daily user of jQuery & trying to favor vanilla JS wherever possible. **SASS, LESS, NPM and Gulp** help me with code organization, package management and optimized delivery.
+	I code **mobile first**, lightweight sites that work well across devices and conditions.
+	Interactivity done with jQuery & vanilla js. **SASS, LESS, NPM and Gulp** help me with code organization, package management and optimized delivery. **Bootstrap** components can help, too.
 
 * **Design**  
 	My experience covers the complete design process from **sketches** and **wireframes** to iteration of high fidelity prototypes based on client feedback.  
-	I use **Sketch** + Affinity Designer for design & illustrations. I have 10+ years of Photoshop experience + proficiency in almost all Adobe CC products.
+	**Sketch** + Affinity Designer for design & illustrations, have 10+ years of Photoshop experience + proficiency in almost all Adobe CC products.
 
 * **Back-end**  
 	I've deployed back-end code that adheres to the principles of MVC, OOP and DRY.  
-	My background is in PHP & MySQL – I have years of experience using **Wordpress API** and **Nette Framework** creating both simple and complex sites.
+	My background is in PHP & MySQL – I have years of experience using **Wordpress API** and **Nette Framework** for both static sites and simple web apps.
 
 ------
 

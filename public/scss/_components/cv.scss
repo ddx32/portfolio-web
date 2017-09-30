@@ -108,5 +108,33 @@
         padding: .5rem;
         margin: .2rem 0;
         background: #fff;
+        font-family: 'Space Mono', monospace;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        box-sizing: border-box;
+
+        @media (min-width: 930px) {
+            display: flex;
+
+            li {
+                flex: 1;
+            }
+    
+            li:first-child {
+                padding-right: .9rem;
+            }
+    
+            li:nth-child(2) {
+                padding-left: .9rem;
+                padding-right: .9rem;
+            }
+    
+            li:last-child {
+                padding-left: .9rem;
+            }
+        }
     }
 }
