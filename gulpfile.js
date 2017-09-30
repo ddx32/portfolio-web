@@ -12,7 +12,7 @@ var concat		= require('gulp-concat');
 
 
 var scripts = [
-	'public/js/scrolling.js'
+	
 ];
 
 gulp.task('scripts', function(){
