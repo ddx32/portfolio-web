@@ -1,3 +1,5 @@
+$gray: #333;
+
 .summary {
 
     @media (min-width: 700px) {
@@ -12,7 +14,8 @@
 }
 
 .summary__content__inset {
-    border: 10px solid #000;
+    border: 10px solid $gray;
+    color: $gray;
     padding: 1rem;
     margin: .5rem;
     margin-bottom: 1rem;
@@ -48,6 +51,8 @@
     margin: 0;
     background-color: $yellow;
     padding: .5rem 1rem;
+    position: relative;
+    animation: 5s linear floaty infinite;
 
     @media (min-width: 850px) {
         font-size: 3.5rem;
@@ -61,10 +66,40 @@
     margin-top: .5rem;
 }
 
+.hire-me {
+    background-color: #DEF1F3;
+    border: 3px dotted #C2E2E1;
+    
+
+    @media (min-width: 420px) {
+        display: flex;
+        max-width: 530px;
+    }
+
+    p {
+        margin-top: 0;
+    }
+}
+
+.hire-me__img {
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 100px;
+        height: auto;
+        margin: auto;
+    }
+}
+
+.hire-me__heading {
+    margin-bottom: 0.3rem;
+}
+
 .summary__contact {
     order: 2;
     flex: 2;
-    background: #000;
+    background: $gray;
     color: #fff;
 
     a {
@@ -78,6 +113,14 @@
 
 .summary__contact__inset {
     padding: 1rem 2rem;
+
+    * {
+        max-width: 400px;
+    }
+
+    hr {
+        max-width: 100%;
+    }
 }
 
 .summary__contact__heading {
@@ -85,9 +128,15 @@
 }
 
 .contact-hr {
-    border-bottom-color: #333;
+    border-bottom-color: #444;
+}
+
 .summary__contact__ico {
     font-family: $monospace;
 }
 
+
+@keyframes floaty {
+    from { transform: rotate(0deg) translateX(5px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(5px) rotate(-360deg); }
 }
