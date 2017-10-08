@@ -88,5 +88,9 @@ gulp.task('serve', function () {
   })
 });
 
+gulp.task('compile', function(){
+    harp.compile(__dirname, '../static/', function(){});
+});
+
 
 gulp.task('default', ['serve']);
