@@ -2,4 +2,6 @@
 
 This is my personal website/portfolio.
 
-It's not much I know, but bear with me.
+I built it mostly with [Harp](https://github.com/sintaxi/harp) with some custom build functionality via [Gulp](https://github.com/gulpjs/gulp). PDFs get compiled with [markdown-pdf](https://github.com/alanshaw/markdown-pdf).
+
+Just `npm install` to setup, run `gulp` for live server, `gulp compile` to compile static site.
