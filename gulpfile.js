@@ -9,6 +9,7 @@ var cheerio     = require('cheerio');
 var uglify   	= require('gulp-uglify');
 var maps        = require('gulp-sourcemaps');
 var concat		= require('gulp-concat');
+var runSeq      = require('run-sequence');
 
 
 var scripts = [
@@ -59,6 +60,14 @@ gulp.task('copy-cv', function() {
 		.pipe(gulp.dest('../static/downloads'));
 });
 
+gulp.task('compile-site', function(callback) {
+    return harp.compile( __dirname, '../static/', function() { callback(); });
+});
+
+gulp.task('compile', function(callback) {
+    runSeq('compile-site', ['copy-cv', 'compile-pdf'], callback)
+});
+
 gulp.task('serve', function () {
   harp.server(__dirname, {
     port: 9000
@@ -86,10 +95,6 @@ gulp.task('serve', function () {
     /* PDF output generator for CV */
     gulp.watch(["public/css/cv-print.css", "public/_cv.md"], ['compile-pdf', 'copy-cv']);
   })
-});
-
-gulp.task('compile', function(){
-    harp.compile(__dirname, '../static/', function(){});
 });
 
 
