@@ -10,7 +10,7 @@
 
 ### Summary
 
-I'm a web developer and designer focusing on frontend technologies. Working as a freelancer for individuals and small businesses I typically design, develop and deploy complete custom websites from the bottom up.
+I'm a web developer and designer focusing on frontend technologies. Working as a freelancer for individuals and small organizations I typically design, develop and deploy complete custom websites from the bottom up.
 
 ------
 
