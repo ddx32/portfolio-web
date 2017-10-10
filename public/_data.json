@@ -1,19 +1,17 @@
 {
     "index" : {
         "title": "Filip Růžička - a filthy snake",
-        "description": "Freelance full stack developer/designer focused on frontend technologies.",
         "contentTag": "main"
     },
     
     "work" : {
         "title": "Filip Růžička: Portfolio",
-        "description": "Freelance full stack developer/designer focused on frontend technologies.",
+        "description": "Browse through my work portfolio and find the lizard. I'm a front end designer/developer from Prague.",
         "contentTag": "work"
     },
 
     "cv" : {
         "title": "Filip Růžička: CV",
-        "description": "Freelance full stack developer/designer focused on frontend technologies.",
         "contentTag": "cv"
     }
 }
