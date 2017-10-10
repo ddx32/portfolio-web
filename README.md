@@ -1,6 +1,7 @@
-# Filip Ruzicka - a filthy snake
+# Filip Růžička
+## filthy snake & debugging weasel
 
-This is my personal website/portfolio. Compiled version should be up at [filipruzicka.com](https://filipruzicka.com).
+This is my personal website/portfolio. See it in action at [filipruzicka.com](https://filipruzicka.com).
 
 Built mostly with [Harp](https://github.com/sintaxi/harp) and some custom build functionality via [Gulp](https://github.com/gulpjs/gulp). Inspired heavily by [harp-gulp-browsersync-boilerplate](https://github.com/superhighfives/harp-gulp-browsersync-boilerplate). PDFs get compiled with [markdown-pdf](https://github.com/alanshaw/markdown-pdf).
 
