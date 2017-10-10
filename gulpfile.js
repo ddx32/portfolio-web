@@ -8,7 +8,7 @@ var through     = require('through');
 var cheerio     = require('cheerio');
 var uglify   	= require('gulp-uglify');
 var maps        = require('gulp-sourcemaps');
-var concat		= require('gulp-concat');
+var concat      = require('gulp-concat');
 var runSeq      = require('run-sequence');
 
 

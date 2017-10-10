@@ -9,8 +9,10 @@
 .portfolio__item {
     margin: 0;
     padding: 3rem 0;
-    background-image: linear-gradient(#fff 0%, #eee 100%);
+    //background-image: linear-gradient(#fff 0%, #eee 100%);
     background-repeat: no-repeat;
+    transform: skewY(5deg);
+
 
     @media (min-width: 1000px) {
         padding: 3rem 0 7rem 0;
