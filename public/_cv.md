@@ -14,12 +14,18 @@ I'm a web developer and designer focusing on frontend technologies. Working as a
 
 ------
 
-### Experience & Education
+### Professional Experience
+
+#### 2017-current
+##### Seznam.cz: *Front-end developer*
+Currently handling front-end tasks related to Seznam.cz's extensive ad delivery platform.
 
 #### 2015-current
 ##### Self-employed: *Freelance web developer*  
 
 I've delivered work that ranges from research, wireframing and visual design all the way through the stack to server setup and database design, while trying my best to understand my clients' business and budget needs.
+
+### Education
 
 #### 2012-2015
 ##### Prague College: *BA (Hons) Fine Art Experimental Media*

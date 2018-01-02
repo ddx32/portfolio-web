@@ -1,0 +1,33 @@
+$matrixgreen: #42b742;
+
+.job-status {
+    background: #000 url('../img/darkness.png');
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    border: 10px dashed $matrixgreen;
+    max-width: 450px;
+
+    @media (min-width: 700px) {
+        text-align: right;
+        padding: 1rem 2rem;
+    }
+}
+
+.job-status__heading {
+    color: $matrixgreen;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+    @media (min-width: 760px) {
+        font-size: 3rem;
+    }
+}
+
+.job-status a {
+    color: $matrixgreen;
+}
+
+.job-status a:hover {
+    text-decoration: none;
+}

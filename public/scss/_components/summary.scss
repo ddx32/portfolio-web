@@ -66,38 +66,6 @@ $gray: #333;
     margin-top: .5rem;
 }
 
-.hire-me {
-    background-color: #DEF1F3;
-    border: 3px dotted #C2E2E1;
-    padding: 1rem;
-    padding-top: 0;
-    
-
-    @media (min-width: 420px) {
-        display: flex;
-        max-width: 530px;
-    }
-
-    p {
-        margin-top: 0;
-    }
-}
-
-.hire-me__img {
-    display: flex;
-    align-items: center;
-
-    img {
-        width: 100px;
-        height: auto;
-        margin: auto;
-    }
-}
-
-.hire-me__heading {
-    margin-bottom: 0.3rem;
-}
-
 .summary__contact {
     order: 2;
     flex: 2;
