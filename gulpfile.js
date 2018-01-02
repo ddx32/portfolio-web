@@ -59,7 +59,7 @@ gulp.task('copy-cv', function() {
 });
 
 gulp.task('compile-site', function(callback) {
-    return harp.compile( __dirname, '../static/', function() { callback(); });
+    return harp.compile( __dirname, './static/', function() { callback(); });
 });
 
 gulp.task('compile', function(callback) {
