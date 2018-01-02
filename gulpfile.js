@@ -12,9 +12,7 @@ var concat      = require('gulp-concat');
 var runSeq      = require('run-sequence');
 
 
-var scripts = [
-	
-];
+var scripts = [];
 
 gulp.task('scripts', function(){
 	gulp.src(scripts)
