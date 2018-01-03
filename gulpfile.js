@@ -48,14 +48,14 @@ gulp.task('compile-pdf', function() {
             cssPath: 'public/css/cv-print.css'
         }))
         .pipe(rename('cv.pdf'))
-        .pipe(gulp.dest('../static/downloads'));
+        .pipe(gulp.dest('./static/downloads'));
 });
 
 gulp.task('copy-cv', function() {
 	var cv = "public/_cv.md";
 	return gulp.src(cv)
 		.pipe(rename('cv.md'))
-		.pipe(gulp.dest('../static/downloads'));
+		.pipe(gulp.dest('./static/downloads'));
 });
 
 gulp.task('compile-site', function(callback) {
