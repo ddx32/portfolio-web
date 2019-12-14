@@ -4,7 +4,7 @@
   "description": "Filip Ruzicka – the last cowboy in this town",
   "main": "gulpfile.js",
   "scripts": {
-    "build": "gulp compile"
+    "build": "gulp build"
   },
   "keywords": [
     "ddx",
