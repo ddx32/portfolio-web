@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Filip Ruzicka – the last cowboy in this town",
   "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp compile"
+  },
   "keywords": [
     "ddx",
     "success",
@@ -14,18 +17,14 @@
   "author": "Filip Ruzicka",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^1.3.5",
     "cheerio": "^0.22.0",
-    "gulp": "^3.8.5",
-    "gulp-concat": "^2.6.1",
-    "gulp-markdown-pdf": "^4.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sourcemaps": "^2.6.1",
-    "gulp-uglify": "^2.1.2",
-    "harp": "^0.24.0",
-    "normalize.css": "^5.0.0",
-    "through": "^2.3.8",
-    "run-sequence": "^2.2.0"
+    "gulp": "^4.0.2",
+    "gulp-markdown-pdf": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "harp": "^0.31.0",
+    "through": "^2.3.8"
   },
-  "dependencies": {}
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
