@@ -1,6 +1,6 @@
 const { src, dest, series, parallel } = require('gulp');
 const rename = require('gulp-rename');
-const harp = require('harp');
+const { compile } = require('harp');
 const mdpdf = require('gulp-markdown-pdf');
 const preProcessHtml = require('./build-tools/preprocess');
 
@@ -15,7 +15,7 @@ const copyCv = () => {
 const compilePdf = () => {
     return src(cv)
         .pipe(mdpdf({
-            preProcessHtml: preProcessHtml,
+            preProcessHtml,
             cssPath: 'public/css/cv-print.css'
         }))
         .pipe(rename('cv.pdf'))
@@ -23,7 +23,7 @@ const compilePdf = () => {
 };
 
 const compileSite = done => {
-    return harp.compile( __dirname, './www/', done);
+    return compile( __dirname, './www/', done);
 };
 
 exports['copy-cv'] = copyCv;
