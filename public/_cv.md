@@ -16,12 +16,10 @@ I'm a web developer and designer focusing on frontend technologies. Working as a
 
 ### Professional Experience
 
-#### 2017-current
-##### Seznam.cz: *Front-end developer*
-Currently handling front-end tasks related to Seznam.cz's extensive ad delivery platform.
-
 #### 2019-current
 ##### Seznam.cz: *UI developer*
+
+Currently handling front-end tasks related to Seznam.cz's extensive ad delivery platform.
 
 #### 2017-2018
 ##### Seznam.cz: *Webmaster*
