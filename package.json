@@ -21,7 +21,7 @@
     "gulp": "^4.0.2",
     "gulp-markdown-pdf": "^8.0.0",
     "gulp-rename": "^2.0.0",
-    "harp": "^0.33.0",
+    "harp": "^0.40.3",
     "through": "^2.3.8"
   },
   "dependencies": {
