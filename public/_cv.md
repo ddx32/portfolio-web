@@ -1,5 +1,5 @@
 # Filip Růžička
-## Front-end designer/developer
+## Full stack JavaScript developer
 
 > <f@filipruzicka.com>  
 > +420 724 124 888
@@ -10,7 +10,10 @@
 
 ### Summary
 
-I'm a web developer and designer focusing on frontend technologies. Working as a freelancer for individuals and small organizations I typically design, develop and deploy complete custom websites from the bottom up.
+Full stack web developer who adheres to best practices used in today's app development and deployment practices. Always learning and staying focused on the front end.
+
+Born in May 1992 in Prague, Czech Republic \
+Languages: Czech (native), English (fluent)
 
 ------
 
@@ -21,7 +24,7 @@ I'm a web developer and designer focusing on frontend technologies. Working as a
 
 * Developed and maintained critical high-traffic frontend components for ad delivery systems
 * Led the transition from legacy deployments to CI/CD workflows
-* Onboarded new team members, co-authored tech stacks for new projects
+* Onboarded new team members, co-authored tech stacks for new projects and refactored legacy projects
 
 #### 2017-2018
 ##### Seznam.cz: *Webmaster*
@@ -47,17 +50,14 @@ Learned the basics of general IT, networks and programming.
 
 ### Skills
 
-* **Front-end code**  
-	I code **mobile first**, lightweight sites that work well across devices and conditions.
-	Interactivity done with jQuery & vanilla js. **SASS, LESS, NPM and Gulp** help me with code organization, package management and optimized delivery. **Bootstrap** components can help, too.
+* **Front-end** \
+My specialty is the "backend of the frontend". I use modern browser APIs in maintainable, modular and well-tested TypeScript and current JavaScript to collect, store and expose data by consuming or creating APIs and data structures. I enjoy doing code reviews and gate-keeping projects from dependency creep. I've got a working experience using reactive frameworks – React, Vue and Svelte.
 
-* **Design**  
-	My experience covers the complete design process from **sketches** and **wireframes** to iteration of high fidelity prototypes based on client feedback.  
-	**Sketch** + Affinity Designer for design & illustrations, have 10+ years of Photoshop experience + proficiency in almost all Adobe CC products.
+* **Back-end** \
+Node.js is my go-to tool for writing scripts and build tools for data transformation and processing, creating custom build processes, designing REST/GraphQL API servers and connecting to the rest of the backend infrastructure. I've previously used recent PHP frameworks and MySQL to build websites.
 
-* **Back-end**  
-	I've deployed back-end code that adheres to the principles of MVC, OOP and DRY.  
-	My background is in PHP & MySQL – I have years of experience using **Wordpress API** and **Nette Framework** for both static sites and simple web apps.
+* **DevOps** \
+I write my own Docker images and compose definitions for most projects to unify development environments and to get apps ready for cloud deployment in container orchestration services. I'm comfortable using GitLab for setting up CI/CD workflows and deployment to Kubernetes.
 
 ------
 
@@ -65,25 +65,20 @@ Learned the basics of general IT, networks and programming.
 
 #### I'm comfortable in
 
-1. HTML
-1. CSS
-1. SASS
-1. LESS
-1. BEM
-1. Gulp
-1. SVG
-1. jQuery
-1. PHP
-1. Nette framework
-1. Wordpress
-1. Sketch
-1. Photoshop
+1. TypeScript
+2. ES6+
+3. Jest
+4. Cypress
+5. node.js
+6. Docker
+7. webpack
+8. git
+9. GitLab CI
 
 
 #### I'm familiar with
 
-1. Git
-1. Canvas
-1. NodeJS
-1. NPM
-1. Composer
+1. React
+2. Vue.js
+3. Svelte
+4. Kubernetes
